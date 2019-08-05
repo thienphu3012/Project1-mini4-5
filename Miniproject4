@@ -52,7 +52,7 @@ int main(){
 	fclose(fp);
 	fclose(fp2);
 	printf("\n\n");
-	printf("Check whether it is an upper triangular matrix or It is a lower triangular matrix.\n ");
+	printf("Check whether it is symmetric or not symmetric .\n ");
 	fp2=fopen(file2,"r");
 	if (fp2==NULL)
 	{
